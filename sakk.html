@@ -2,87 +2,76 @@
 <html lang="hu">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sakk</title>
     <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="sakk.css">
 </head>
 <body>
-
-<div class="container">
-
-    <div class="row">
-        <div class="col-12">
-            <h1>Sakk</h1>
+    <div class="container">
+        <div class="row col-12">
+            <h1>A Sakk</h1>
         </div>
-    </div>
-
-    <div class="row">
-        <div class="col-md-8">
-            <p>
-                A sakk kétjátékos stratégiai táblajáték, amelyet 8×8 mezőből álló sakktáblán játszanak. A játék célja az ellenfél királyának mattadása. A kezdő felállásban a <span class="fk feher">fehér király</span> és a <span class="fk fekete">fekete királynő</span> a középső oszlopokban állnak, mellettük sorakoznak a többi bábuk. A <span class="fk feher">fehér huszár</span> L alakban lép, a <span class="fk fekete">fekete bástya</span> pedig vízszintesen vagy függőlegesen mozoghat tetszőleges távolságra. A táblán váltakozva követik egymást a <span class="fk feher">világos mező</span> és a <span class="fk fekete">sötét mező</span> négyzetek.
-            </p>
-
-            <h2>A figurák</h2>
-
-            <div class="row text-center">
-                <div class="col-6 col-md-2">
-                    <p class="alakzat feher">&#9812;</p>
-                    <p>Király</p>
+        <div class="row">
+            <div class="col-md-8">
+                <div>
+                    <p>A sakk kétjátékos stratégiai táblajáték, amelyet 8×8 mezőből álló sakktáblán játszanak. A játék célja az ellenfél királyának mattadása. A kezdő felállásban a <span class="feher fk">fehér király </span>és a <span class="fekete fk">fekete királynő</span> a középső oszlopokban állnak, mellettük sorakoznak a többi bábuk. A <span class="feher fk">fehér huszár</span> L alakban lép, a <span class="fekete fk">fekete bástya</span> pedig vízszintesen vagy függőlegesen mozoghat tetszőleges távolságra. A táblán váltakozva követik egymást a <span class="feher fk">világos mező</span> és a <span class="fekete fk">sötét mező</span> négyzetek.</p>
                 </div>
-                <div class="col-6 col-md-2">
-                    <p class="alakzat feher">&#9813;</p>
-                    <p>Vezér</p>
+                <div >
+                    <h2>A figurák</h2>
                 </div>
-                <div class="col-6 col-md-2">
-                    <p class="alakzat feher">&#9814;</p>
-                    <p>Bástya</p>
-                </div>
-                <div class="col-6 col-md-2">
-                    <p class="alakzat feher">&#9815;</p>
-                    <p>Futó</p>
-                </div>
-                <div class="col-6 col-md-2">
-                    <p class="alakzat feher">&#9816;</p>
-                    <p>Huszár</p>
-                </div>
-                <div class="col-6 col-md-2">
-                    <p class="alakzat feher">&#9817;</p>
-                    <p>Gyalog</p>
-                </div>
+            
+                <div class="row">
+            <div class="col-md-2">
+                <p class="alakzat feher">&#9812;</p>
+                <p class="kepalairas">Király</p>
+            </div>
+            <div class="col-md-2">
+                <p class="alakzat fekete">&#9813;</p>
+                <p class="kepalairas">Vezér</p>
+            </div>
+            <div class="col-md-2">
+                <p class="alakzat feher">&#9814;</p>
+                <p class="kepalairas">Bástya</p>
+            </div>
+            <div class="col-md-2">
+                <p class="alakzat fekete">&#9815;</p>
+                <p class="kepalairas">Futó</p>
+            </div>
+            <div class="col-md-2">
+                <p class="alakzat feher">&#9816;</p>
+                <p class="kepalairas">Huszár</p>
+            </div>
+            <div class="col-md-2">
+                <p class="alakzat fekete">&#9817;</p>
+                <p class="kepalairas">Gyalog</p>
+            </div>
             </div>
         </div>
-
-        <div class="col-md-4">
-            <img src="vezer.png" class="w-100" alt="">
-            <p class="kepalairas">A vezér</p>
+            <div class="col-md-4">
+                <img src="vezer.png" alt="Vezér" class="w-100">
+                <p class="kepalairas">Vezér</p>
+            </div>
+        
+        </div>
+        <div class="row">
+            <h2 class="col-md-12">Huszár</h2>
+            <div class="col-md-3">
+                <img src="huszar.jpg" alt="" class="w-100">
+            </div>
+            <div class="col-md-9">
+                <p>A huszár az egyetlen figura, amely átugorhat más bábuk fölött. Mozgása különleges, mert egyszerre két irányváltást is tartalmaz: kettőt lép egy irányba, majd egyet arra merőlegesen. Emiatt a huszár különösen hasznos zárt állásokban, ahol más figurák mozgása korlátozott. A jó huszárjáték sokszor <span class="fk">villafenyegetést, anyagnyerést</span> vagy <span class="fk">váratlan mattképet</span> eredményezhet.</p>
+                <p class="fk">A huszár különösen erős az alábbi helyzetekben:</p>
+                <ul class="lista">
+                    <li>amikor egyszerre két fontos figurát támad</li>
+                    <li>amikor a tábla közepén állva sok mezőt ellenőriz</li>
+                    <li>amikor villával sakkot és tisztet is támad</li>
+                    <li>amikor zárt gyalogszerkezet mellett a futóknál mozgékonyabb</li>
+                </ul>
+            </div>
         </div>
     </div>
 
-    <div class="row">
-        <div class="col-12">
-            <h2>A huszár</h2>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-md-3">
-            <img src="huszar.jpg" class="w-100" alt="">
-        </div>
-        <div class="col-md-9">
-            <p>
-                A <span class="fk">huszár</span> az egyetlen figura, amely átugorhat más bábuk fölött. Mozgása különleges, mert egyszerre két irányváltást is tartalmaz: kettőt lép egy irányba, majd egyet arra merőlegesen. Emiatt a huszár különösen hasznos zárt állásokban, ahol más figurák mozgása korlátozott. A jó huszárjáték sokszor villafenyegetést, anyagnyerést vagy váratlan mattképet eredményezhet.
-            </p>
-
-            <ul class="lista">
-                <li>amikor egyszerre két fontos figurát támad</li>
-                <li>amikor a tábla közepén állva sok mezőt ellenőriz</li>
-                <li>amikor villával sakkot és tisztet is támad</li>
-                <li>amikor zárt gyalogszerkezet mellett a futóknál mozgékonyabb</li>
-            </ul>
-        </div>
-    </div>
-
-</div>
-
+    
 </body>
 </html>
